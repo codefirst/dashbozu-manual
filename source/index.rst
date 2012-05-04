@@ -3,10 +3,27 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Dashbozu manual's documentation!
+Dashbozu User Manual
 ===========================================
 
-Contents:
+Dashbozu is an integration service of all dashboards of the world!
+
+Supported services are
+
+* Jenkins
+* git
+* Redmine
+* heroku
+
+Requirements
+-----------------------
+
+* Play 2.0 or later
+* PostgreSQL 8 or later
+
+
+Contents
+-----------------------
 
 .. toctree::
    :maxdepth: 2
