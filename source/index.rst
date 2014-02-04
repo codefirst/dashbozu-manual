@@ -6,7 +6,7 @@
 Dashbozu User Manual
 ===========================================
 
-Dashbozu is an integration service of all dashboards of the world!
+`Dashbozu <http://www.codefirst.org/dashbozu/>`_ is an integration service of all dashboards of the world!
 
 Supported services are
 
