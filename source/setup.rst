@@ -1,63 +1,42 @@
 Setup
 ============
 
-Setup Play 2.0 or later
-------------------------
+Install
+----------------
 
-* Documentation: Installing  Playframework (http://www.playframework.org/documentation/2.0/Installing)
-
-Setup PostgreSQL
-------------------------
-
-Install PostgreSQL by your package system(e.g. homebrew). And type following command:
+Install dependencies:
 
 ::
 
-    $ cd /path/to/db
-    $ initdb .
-    $ postgres -D .
+    $ bundle install --path .bundle --without development test
 
-And type at other terminal:
+Precompile assets:
 
 ::
 
-    $ createdb dashbozu
+    $ bundle exec rake assets:precompile RAILS_ENV=production
 
-
-Run Dashbozu
------------------------
-
-Type below commands.
+Run server:
 
 ::
 
-    $ play stage
-    $ target/start -Dconfig.resource=prod.conf
+    $ bundle exec rails s -e production
 
-And access [http://localhost:9000](http://localhost:9000)
+Parameters
+---------------
 
-(Optional) Realtime update
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Edit config/dashbozu.yml
 
-Signup(or login) http://pusher.com/ and add new App. And update ``prod.conf``:
+or set environment variables:
 
-::
+* GITHUB\_KEY
+* GITHUB\_SECRET
+* BITBUCKET\_KEY
+* BITBUCKET\_SECRET
 
-    pusher.enable=true
-    pusher.id=<pusher_id>
-    pusher.key=<key>
-    pusher.secret=<secret>
+If you do not have GitHub and Bitbucket keys, go to
 
-(Optional) Push notification to iPhone
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+* https://github.com/settings/applications
+* https://bitbucket.org/account/user/YOUR-ACCOUNT/api
 
-Signup(or login) http://boxcar.com and add new service. And update ``prod.conf``:
-
-::
-
-    boxcar.enable=true
-    boxcar.key=<key>
-    boxcar.secret=<secret>
-
-And install boxcar App to your iPhone/iPad.
 
