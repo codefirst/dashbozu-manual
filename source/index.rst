@@ -36,7 +36,7 @@ Contents
    :maxdepth: 2
 
    setup
-   hooks
+   plugin
 
 Indices and tables
 ==================
