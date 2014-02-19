@@ -64,7 +64,7 @@ Install deployhook addon:
 
 ::
 
-    $ heroku addons:add deployhooks:http --url=http://dashbozu.example.com/hook/heroku
+    $ heroku addons:add deployhooks:http --url=http://dashbozu.example.com/hook/your-api-key/heroku
 
 New Relic
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
