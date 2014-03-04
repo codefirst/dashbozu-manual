@@ -14,6 +14,7 @@ Dashbozu supports below services to input activities.
 * `Errbit <https://github.com/errbit/errbit>`_
 * `Wercker <http://wercker.com/>`_
 * `Jenkins <http://jenkins-ci.org/>`_
+* `Redmine <http://redmine.org/>`_
 * `Sunline <http://www.codefirst.org/sunline/>`_
 
 GitHub
@@ -111,6 +112,16 @@ And set below settings.
 * Format: JSON
 * Protocol: HTTP
 * URL: http://your.dashbozu.host/hook/your-api-key/jenkins
+
+Redmine
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Install `Redmine Webhook Plugin <https://github.com/suer/redmine_webhook>`_ .
+
+Add post URL in project settings page as following:
+
+::
+    http://your.dashbozu.host/hook/your-api-key/redmine
+
 
 Sunline
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
