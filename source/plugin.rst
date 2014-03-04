@@ -120,6 +120,7 @@ Install `Redmine Webhook Plugin <https://github.com/suer/redmine_webhook>`_ .
 Add post URL in project settings page as following:
 
 ::
+
     http://your.dashbozu.host/hook/your-api-key/redmine
 
 
