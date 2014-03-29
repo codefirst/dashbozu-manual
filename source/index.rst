@@ -17,6 +17,7 @@ Supported services:
 * `New Relic <http://newrelic.com/>`_
 * `Errbit <https://github.com/errbit/errbit>`_
 * `Wercker <http://wercker.com/>`_
+* `dploy.io <http://dploy.io/>`_
 * `Jenkins <http://jenkins-ci.org/>`_
 * `Sunline <http://www.codefirst.org/sunline/>`_
 * `AsakusaSatellite <http://www.codefirst.org/AsakusaSatellite/>`_

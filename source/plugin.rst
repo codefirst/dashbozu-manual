@@ -13,6 +13,7 @@ Dashbozu supports below services to input activities.
 * `New Relic <http://newrelic.com/>`_
 * `Errbit <https://github.com/errbit/errbit>`_
 * `Wercker <http://wercker.com/>`_
+* `dploy.io <http://dploy.io/>`_
 * `Jenkins <http://jenkins-ci.org/>`_
 * `Redmine <http://redmine.org/>`_
 * `Sunline <http://www.codefirst.org/sunline/>`_
@@ -102,6 +103,13 @@ And set URL as a application environment(we recomend as protected value):
 
     http://your.dashbozu.host/hook/your-api-key/wercker
 
+dploy.io
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Set 'Post-Deployment URL' in 'Servers Configuration':
+
+::
+
+    http://your.dashbozu.host/hook/your-api-key/dploy
 
 Jenkins
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
