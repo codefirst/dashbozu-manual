@@ -17,6 +17,7 @@ Dashbozu supports below services to input activities.
 * `Jenkins <http://jenkins-ci.org/>`_
 * `Redmine <http://redmine.org/>`_
 * `Sunline <http://www.codefirst.org/sunline/>`_
+* `Hatena Bookmark <http://b.hatena.ne.jp/>`_
 
 GitHub
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -139,6 +140,16 @@ Add hooks to script as following:
 ::
 
     http://your.dashbozu.host/hook/your-api-key/sunline
+
+Hatena Bookmark
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Set Web Hook configuration in your preference:
+
+::
+
+    http://your.dashbozu.host/hook/your-api-key/hatena_bookmark
+
+
 
 Output plugins
 -------------------------------
