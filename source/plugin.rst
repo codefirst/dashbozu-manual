@@ -14,9 +14,9 @@ Dashbozu supports below services to input activities.
 * `Errbit <https://github.com/errbit/errbit>`_
 * `Wercker <http://wercker.com/>`_
 * `dploy.io <http://dploy.io/>`_
-* `Jenkins <http://jenkins-ci.org/>`_
+* `Jenkins <https://jenkins-ci.org/>`_
 * `Redmine <http://redmine.org/>`_
-* `Sunline <http://www.codefirst.org/sunline/>`_
+* `Sunline <https://www.codefirst.org/sunline/>`_
 * `Hatena Bookmark <http://b.hatena.ne.jp/>`_
 
 GitHub
@@ -157,7 +157,7 @@ Output plugins
 Dashbozu supports below services to output activities.
 
 * `ChatWork <http://www.chatwork.com/>`_
-* `AsakusaSatellite <http://www.codefirst.org/AsakusaSatellite/>`_
+* `AsakusaSatellite <https://www.codefirst.org/AsakusaSatellite/>`_
 * WebHook
 
 ChatWork
